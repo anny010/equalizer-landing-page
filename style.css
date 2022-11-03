@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,700&display=swap');
+.sectionfirst{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background: url(/images/bg-main-mobile.png) no-repeat;
+    background-position: left -10% top -25%;
+}
+
+.textlogo{
+    width: 146px;
+    height: 32px;
+    margin: 40px 24px;
+}
+.circle{
+    width: 280px;
+}
+.image img{
+    padding: 40px 24px 0px 24px;
+}
+.sectiontwo{
+    margin-left: 24px;
+    max-width: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height: 48px;
+    color:rgba(25, 24, 38, 1);
+    letter-spacing: -0.45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.sectiontwo p{
+    font-size: 18px;
+    line-height: 26px;
+    color:rgba(25, 24, 38, 1);
+    font-family:'IBM Plex Sans';
+    font-style:normal;
+    font-weight: 400px;
+}
+.sectionthird{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.background{
+    height: 600px;
+    width: 100%;
+    border-radius: 12px;
+    background: rgba(25, 24, 38, 1);
+    margin-top: 166px;
+    text-align: center;
+}
+.mobile{
+    width: 209px;
+    margin-top: -100px;
+    position: relative;
+}
+.pattern{
+    margin-top: -334px;
+}
+.orangeback{
+    height: 546px;
+    border-radius: 12px;
+    background: rgba(250, 116, 83, 1);
+    margin-top: -180px;
+    position: relative;
+}
+.orangeback h1{
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(252, 250, 249, 1);
+    font-family:'IBM Plex Sans', sans-serif;
+    padding-top: 48px;
+}
+.orangeback  p{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(252, 250, 249, 1);
+    font-family:'IBM Plex Sans', sans-serif;
+}
+h2{
+   font-family: 'IBM Plex Sans';
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 52px;
+   letter-spacing: 0px;
+   color: rgba(252, 250, 249, 1);
+   margin-top: 36px;
+}
+h3{
+    font-family: 'IBM Plex Sans';
+    color: rgba(252, 250, 249, 1);
+    font-size: 20px;
+    line-height: 32px;
+    line-height: 123%;
+    margin-left: 80px;
+    padding-bottom: 50px;
+    margin-top: -32px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+}
+.text{
+    transform: translateX(25px);
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.ios{
+   padding: 15px 60px 15px 60px;
+   background-color:rgba(25, 24, 38, 1);
+   border-radius: 12px;
+   color: rgba(252, 250, 249, 1);
+   font-size: 18px;
+   line-height: 32px;
+   letter-spacing: -0.18px;
+   border: none;
+   font-weight: 700;
+   cursor: pointer;
+}
+.android{
+    padding:15px 50px 14px 50px;
+    background: rgba(252, 250, 249, 1);
+    border-radius: 12px;
+    color: rgba(25, 24, 38, 1);
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border: none;
+    margin-top: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sectionfive h1{
+color: rgba(25, 24, 38, 1);
+}
+.sectionfive p{
+    color: rgba(25, 24, 38, 1);
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    line-height: 26px;
+    width: 327px;
+    font-weight: 400;
+}
+.sectionfive{
+    padding: 64px 24px 80px 24px;
+}
+.icons{
+    display: flex;
+    padding-top: 64px;
+    gap: 20px;
+    cursor: pointer;
+}
+.pattern1{
+    display: none;
+}
+:hover.ios{
+    background-color: rgba(102, 226, 220, 1);
+}
+:hover.android{
+    background-color: rgba(255, 185, 100, 1);
+}
+ .icon:hover {
+        filter: invert(52%) sepia(50%) saturate(701%) hue-rotate(323deg)
+          brightness(100%) contrast(96%);
+  }
+@media screen and (min-width: 768px){
+    .sectiontwo h1{
+        font-size: 64px;
+        line-height: 64px;
+        font-weight: 700;
+        width: 520px;
+    }
+    .sectiontwo p{
+        font-size: 18px;
+        line-height: 28px;
+        width: 514px;
+    }
+    .background{
+        width:696px;
+    }
+    .orangeback{
+        width: 400px;
+    }
+    .pattern1{
+        display: block;
+        width: 30%;
+        transform: translate(130%,-10%);
+    }
+    .pattern{
+        transform: translate(-40%,0%);
+    }
+   .sectiontwo{
+    margin-top: -200px;
+    margin-left: 70px;
+   }
+   .mobile{
+    width: 270px;
+    z-index: 1;
+    margin-top: -130px;
+   }
+   .orangeback{
+    transform: translate(21%,-48%);
+    z-index: 1;
+   }
+   .sectionfive{
+    transform: translate(0,-100%);
+    padding: 0;
+   }
+   .sectionthird{
+    display: flex;
+    align-items: center;
+   }
+   .sectionfirst{
+    margin-left: 50px;
+   }
+    body{
+    background-position: left 80% top -10%;
+   } 
+    .socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+   }
+    .text{
+    display: flex;
+    flex-direction: column;
+   }
+    :hover.ios{
+        background-color: rgba(102, 226, 220, 1);
+   }
+    :hover.android{
+        background-color: rgba(255, 185, 100, 1);
+   }
+}
+
+@media screen and (min-width: 1400px){
+    .sectiontwo h1{
+       font-size: 88px;
+       line-height: 88px;
+       width: 1015px;
+    }
+    .sectiontwo p{
+        font-size: 20px;
+        line-height: 34px;
+        width: 825px;
+        height: 102px;
+    }
+    .background{
+        width: 1110px;
+    }
+    .orangeback{
+        width: 446px;
+        height: 627px;
+        transform: translate(60%,-50%);
+    }
+    .orangeback h1{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .orangeback p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .mobile{
+        width: 312px;
+        transform: translate(-40%,-10%);
+    }
+    .pattern{
+        width: 312px;
+        transform: translate(-66.5%,-14%);
+    }
+    .ios{
+        margin-top: 20px;
+    }
+    .sectionthird{
+        margin-top: 115px;
+    }
+    :hover.ios{
+        background-color: rgba(102, 226, 220, 1);
+    }
+    :hover.android{
+        background-color: rgba(255, 185, 100, 1);
+    }
+    .pattern1{
+        width: 25%;
+        transform: translate(247%,-10%);
+    }
+    .sectionfive{
+        padding: 0px 165px 0px 165px;
+    }
+    .footer{
+        display: flex;
+        gap:150px;
+    }
+    .icons{
+        transform: translateY(-30px);
+    }
+}
